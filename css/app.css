@@ -593,7 +593,8 @@ canvas#canvas {
 #animatedModal2 .btn-2  {
     font-family: 'RocknRoll One';
     display: block;
-    width: 220px;
+    max-width: 220px;
+    width: 100%;
     margin: 30px auto 0px;
     font-style: normal;
     font-weight: 700;
@@ -1016,6 +1017,30 @@ button.carousel__button.is-close {
         margin-top: 20px;
     }
 
+    #animatedModal .text1 {
+        font-size: 20px;
+    }
+
+    #animatedModal .text2 {
+        font-size: 24px;
+    }
+
+    #animatedModal .text3 {
+        font-size: 20px;
+    }
+
+    #animatedModal2 .text1 {
+        font-size: 40px;
+    }
+
+    #animatedModal2 .text3 {
+        font-size: 24px;
+    }
+
+    #animatedModal2 .text2 {
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -1056,6 +1081,8 @@ button.carousel__button.is-close {
     }
 
 }
+
+
 
 @media (max-height: 720px) {
 
