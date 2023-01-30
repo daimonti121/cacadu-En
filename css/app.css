@@ -1051,24 +1051,8 @@ button.carousel__button.is-close {
         transform: scale(0.5);
     }
 
-    .circle {
-        top: -15%;
-    }
-
     .palma-right img {
         max-width: 140px;
-    }
-
-    .circle {
-        top: 0;
-    }
-
-}
-
-@media (max-width: 320px) {
-
-    .logo {
-        top: -5px;
     }
 
 }
