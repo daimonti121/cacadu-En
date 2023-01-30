@@ -1007,6 +1007,14 @@ button.carousel__button.is-close {
     #click {
         top: 41%;
     }
+    #animatedModal2 .text2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #animatedModal2 .text3 {
+        margin-top: 20px;
+    }
 
 }
 
