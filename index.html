@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAKADU</title>
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <input type="button" id="click" value="spin" style="float:left;" onclick="spin();" />
+        <div class="bg">
+            <div class="monetki-left">
+                <img src="img/monetki-r-l.svg" alt="monetki" class="mon-l">
+                <img src="img/monetki-r-l.svg" alt="monetki" class="mon-r">
+                <img src="img/monetki-b.svg" alt="monetki" class="mon-b">
+                <img src="img/monetki-r-t.svg" alt="monetki" class="mon-r-t">
+                <img src="img/monetki-c-t.svg" alt="monetki" class="c-t">
+            </div>
+            <div class="volna">
+                <svg class="editorial"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28"
+                    preserveAspectRatio="none">
+                    <defs>
+                    <path id="gentle-wave"
+                    d="M-160 44c30 0 
+                        58-18 88-18s
+                        58 18 88 18 
+                        58-18 88-18 
+                        58 18 88 18
+                        v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+                    <use xlink:href="#gentle-wave" x="50" y="3" fill="#3461c1"/>
+                    <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>  
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="fon">
+            <div class="left">
+                <div class="palma-left">
+                    <img src="img/palma 2.png" alt="palma">
+                </div>
+                <div class="kakadu">
+                    <img src="img/kakadu.png" alt="kakadu">
+                </div>
+            </div>
+            <div class="center">
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="circle">
+                    <div class="circle-1lv">
+                        <img src="img/Group 585.svg" alt="Group">
+                    </div>
+                    <div class="circle-2lv">
+
+                        <canvas id="canvas" width="500" height="500"></canvas>
+                        <img src="img/Group 586.svg" alt="Group" width="90" height="150" class="none" id="arrow">
+                        <div class="centerrr">
+                            <img src="img/Frame.png" alt="Frame" width="150" height="150" class="none" id="center-logo">
+                        </div>
+                        <div id="ans"></div>
+                        
+                    </div>
+                    <div class="circle-3lv">
+                        <div class="svet svet-1"></div>
+                        <div class="svet2 svet-2"></div>
+                        <div class="svet svet-3"></div>
+                        <div class="svet2 svet-4"></div>
+                        <div class="svet svet-5"></div>
+                        <div class="svet2 svet-6"></div>
+                        <div class="svet svet-7"></div>
+                        <div class="svet2 svet-8"></div>
+                        <div class="svet svet-9"></div>
+                        <div class="svet2 svet-10"></div>
+                        <div class="svet svet-15"></div>
+                        <div class="svet svet-17"></div>
+                        <div class="svet2 svet-18"></div>
+                        <div class="svet svet-19"></div>
+                        <div class="svet2 svet-20"></div>
+                        <div class="svet svet-21"></div>
+                        <div class="svet2 svet-22"></div>
+                        <div class="svet svet-23"></div>
+                        <div class="svet2 svet-24"></div> 
+                        <div class="svet svet-25"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="palma-right">
+                    <img src="img/palma 1.png" alt="palma">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button data-fancybox data-modal="true" data-src="#animatedModal" class="none this"></button>
+    <div class="wrapper-popup none" >
+        <div id="animatedModal" class="none">
+            <div class="text1">Congratulations!</div>
+            <div class="text2">You win 100 free spins</div>
+            <div class="text3">try to get more</div>
+            <div class="btn btn-1" data-fancybox-close>SPIN</div>
+        </div>
+    </div>
+    <button data-fancybox data-modal="true" data-src="#animatedModal2" class="none this2"></button>
+    <div class="wrapper-popup none" >
+        <div id="animatedModal2" >
+            <div class="text1">Wow!</div>
+            <div class="text2"> Your total bonus is</div>
+            <div class="text3"> 100% up to €250 + 100FS! </div>
+            <div class="btn-2" data-fancybox-close>Get bonus</div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/app.js?v1.6"></script>
+
+</body>
+</html>
